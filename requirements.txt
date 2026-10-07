@@ -1,0 +1,14 @@
+# Laufzeit
+streamlit
+networkx
+pyyaml
+requests
+beautifulsoup4
+anthropic
+# Optional: nur noetig, wenn Gemini als Audit-Engine genutzt wird.
+# Diese SDK und ihre Modellnamen aendern sich; gegen ai.google.dev pruefen.
+google-generativeai
+
+# Hinweis: Versionen sind bewusst nicht gepinnt. Fuer reproduzierbare
+# Deploys nach dem ersten erfolgreichen Lauf einfrieren:
+#   pip freeze > requirements.lock.txt

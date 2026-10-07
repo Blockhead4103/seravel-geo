@@ -1,0 +1,44 @@
+# Ontologie fuer den Knowledge-Graph.
+#
+# Zweck: feste, kleine Menge erlaubter Knoten- und Beziehungstypen, an
+# schema.org angelehnt. Die Extraktion darf nur diese Typen verwenden;
+# alles andere wird verworfen oder landet in der Pruefliste.
+#
+# Bewusst klein gehalten (First Principles): nur was eine Agentur-/Experten-
+# Website wirklich braucht. Erweitern, wenn ein konkreter Bedarf auftaucht.
+
+node_types:
+  Person:
+    schema: https://schema.org/Person
+    properties: [name, jobTitle, description, sameAs]
+  Organization:
+    schema: https://schema.org/Organization
+    properties: [name, description, url, sameAs]
+  Service:
+    schema: https://schema.org/Service
+    properties: [name, description]
+  Technology:
+    # Keine eigene schema.org-Klasse; als Thing/DefinedTerm modelliert.
+    schema: https://schema.org/DefinedTerm
+    properties: [name, description]
+  Industry:
+    schema: https://schema.org/DefinedTerm
+    properties: [name, description]
+  Project:
+    schema: https://schema.org/CreativeWork
+    properties: [name, description, url]
+  Credential:
+    schema: https://schema.org/EducationalOccupationalCredential
+    properties: [name, description]
+
+# Erlaubte gerichtete Beziehungen: (Quelltyp) --relation--> (Zieltyp)
+relation_types:
+  worksFor:        { from: Person,       to: Organization }
+  founderOf:       { from: Person,       to: Organization }
+  offers:          { from: Organization, to: Service }
+  hasExpertiseIn:  { from: Person,       to: Technology }
+  specializesIn:   { from: Organization, to: Technology }
+  servesIndustry:  { from: Organization, to: Industry }
+  deliveredProject: { from: Organization, to: Project }
+  usesTechnology:  { from: Project,      to: Technology }
+  holdsCredential: { from: Person,       to: Credential }

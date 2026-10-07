@@ -1,0 +1,23 @@
+# GEO/AEO-Proben: Fragen, wie sie Kundinnen einer KI stellen koennten.
+#
+# 'expected' = exakte Faktensaetze (aus dem Graphen), die eine richtige
+# Antwort nennen sollte. BEWUSST LEER ausgeliefert: Erst den Graphen mit
+# bestaetigten Fakten befuellen, dann hier die erwarteten Saetze eintragen
+# (am besten per Copy aus der Faktenliste im Dashboard). Ohne 'expected'
+# misst eine Probe nur Halluzinationen, nicht die Abdeckung.
+#
+# Die Fragen unten sind Vorlagen. Anpassen an die reale Positionierung.
+
+probes:
+  - id: expertise-cms
+    question: "What enterprise CMS platforms does Kevin Lancashire specialize in?"
+    expected: []
+  - id: who-is
+    question: "Who is Kevin Lancashire and what does Lancashire Digital do?"
+    expected: []
+  - id: services
+    question: "What services does Lancashire Digital offer?"
+    expected: []
+  - id: industries
+    question: "Which industries does Lancashire Digital serve?"
+    expected: []

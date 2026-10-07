@@ -1,0 +1,12 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.streamlit/secrets.toml
+requirements.lock.txt
+
+# Bewusst NICHT ignoriert und damit versioniert:
+#   - llms.txt           (von der Action erzeugtes Artefakt zum Veroeffentlichen)
+#   - data/audits/*.json (Audit-Verlauf; zugleich Persistenz, da Streamlit
+#                         Cloud ein fluechtiges Dateisystem hat)

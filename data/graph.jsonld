@@ -1,0 +1,26 @@
+{
+  "_comment": "PLATZHALTER-Graph. Enthaelt KEINE verifizierten Fakten. Ueber den Reiter 'Extraktion' aus lancashire-digital.ch befuellen und jeden Knoten/jede Kante bestaetigen, bevor daraus eine llms.txt veroeffentlicht wird.",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "geo": "https://seravel-geo.local/ontology#",
+    "Person": "https://schema.org/Person",
+    "Organization": "https://schema.org/Organization",
+    "worksFor": { "@id": "geo:worksFor", "@type": "@id" }
+  },
+  "@graph": [
+    {
+      "@id": "kevin-lancashire",
+      "@type": "Person",
+      "name": "Kevin Lancashire",
+      "description": "PLATZHALTER — bitte durch bestaetigte Angaben von der Website ersetzen.",
+      "worksFor": { "@id": "lancashire-digital" }
+    },
+    {
+      "@id": "lancashire-digital",
+      "@type": "Organization",
+      "name": "Lancashire Digital",
+      "url": "https://lancashire-digital.ch",
+      "description": "PLATZHALTER — bitte durch bestaetigte Angaben von der Website ersetzen."
+    }
+  ]
+}
