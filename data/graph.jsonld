@@ -1,26 +1,124 @@
 {
-  "_comment": "PLATZHALTER-Graph. Enthaelt KEINE verifizierten Fakten. Ueber den Reiter 'Extraktion' aus lancashire-digital.ch befuellen und jeden Knoten/jede Kante bestaetigen, bevor daraus eine llms.txt veroeffentlicht wird.",
   "@context": {
     "@vocab": "https://schema.org/",
     "geo": "https://seravel-geo.local/ontology#",
-    "Person": "https://schema.org/Person",
+    "Credential": "https://schema.org/EducationalOccupationalCredential",
+    "Industry": "https://schema.org/DefinedTerm",
     "Organization": "https://schema.org/Organization",
-    "worksFor": { "@id": "geo:worksFor", "@type": "@id" }
+    "Person": "https://schema.org/Person",
+    "Project": "https://schema.org/CreativeWork",
+    "Service": "https://schema.org/Service",
+    "Technology": "https://schema.org/DefinedTerm",
+    "deliveredProject": {
+      "@id": "geo:deliveredProject",
+      "@type": "@id"
+    },
+    "founderOf": {
+      "@id": "geo:founderOf",
+      "@type": "@id"
+    },
+    "hasExpertiseIn": {
+      "@id": "geo:hasExpertiseIn",
+      "@type": "@id"
+    },
+    "holdsCredential": {
+      "@id": "geo:holdsCredential",
+      "@type": "@id"
+    },
+    "offers": {
+      "@id": "geo:offers",
+      "@type": "@id"
+    },
+    "servesIndustry": {
+      "@id": "geo:servesIndustry",
+      "@type": "@id"
+    },
+    "specializesIn": {
+      "@id": "geo:specializesIn",
+      "@type": "@id"
+    },
+    "usesTechnology": {
+      "@id": "geo:usesTechnology",
+      "@type": "@id"
+    },
+    "worksFor": {
+      "@id": "geo:worksFor",
+      "@type": "@id"
+    }
   },
   "@graph": [
+    {
+      "@id": "assessment",
+      "@type": "Service",
+      "name": "Assessment",
+      "description": "Fixed price after the initial call, two to three weeks. A prioritised basis for decision, including a clear recommendation on what to stop or correct."
+    },
+    {
+      "@id": "fractional-mandate",
+      "@type": "Service",
+      "name": "Fractional CDO mandate",
+      "description": "One to four days a month, six-month minimum term. Target indicators fixed against a baseline before the work starts; ends with the handover to the client's team."
+    },
     {
       "@id": "kevin-lancashire",
       "@type": "Person",
       "name": "Kevin Lancashire",
-      "description": "PLATZHALTER — bitte durch bestaetigte Angaben von der Website ersetzen.",
-      "worksFor": { "@id": "lancashire-digital" }
+      "jobTitle": "Fractional CDO",
+      "description": "Thirteen years on the client side of digital platforms, at Migros, Roche and localsearch, most recently as CEO of a SaaS provider. Advises boards and executive teams on the business case, vendor choice and handover for platform and AI initiatives; vendor-neutral and time-boxed.",
+      "worksFor": {
+        "@id": "lancashire-digital"
+      }
     },
     {
       "@id": "lancashire-digital",
       "@type": "Organization",
       "name": "Lancashire Digital",
       "url": "https://lancashire-digital.ch",
-      "description": "PLATZHALTER — bitte durch bestaetigte Angaben von der Website ersetzen."
+      "description": "Independent, vendor-neutral advisory for platform and AI decisions. Fixed-term fractional CDO mandates and assessments for boards and executive teams, built to end in a handover to the client's own team.",
+      "offers": [
+        {
+          "@id": "assessment"
+        },
+        {
+          "@id": "fractional-mandate"
+        }
+      ],
+      "deliveredProject": {
+        "@id": "seravel"
+      },
+      "servesIndustry": [
+        {
+          "@id": "pharma"
+        },
+        {
+          "@id": "medtech"
+        },
+        {
+          "@id": "regulated-industries"
+        }
+      ]
+    },
+    {
+      "@id": "medtech",
+      "@type": "Industry",
+      "name": "Medtech"
+    },
+    {
+      "@id": "pharma",
+      "@type": "Industry",
+      "name": "Pharma"
+    },
+    {
+      "@id": "regulated-industries",
+      "@type": "Industry",
+      "name": "Regulated industries"
+    },
+    {
+      "@id": "seravel",
+      "@type": "Project",
+      "name": "Seravel",
+      "url": "https://www.lancashire-digital.ch/ai-answer-audit",
+      "description": "Tests whether AI language-model answers about an organisation match its approved statements (approval status, indications and scope, company facts). In pilot, seeking beta testers in regulated industries."
     }
   ]
 }

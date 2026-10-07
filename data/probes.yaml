@@ -1,23 +1,32 @@
-# GEO/AEO-Proben: Fragen, wie sie Kundinnen einer KI stellen koennten.
-#
-# 'expected' = exakte Faktensaetze (aus dem Graphen), die eine richtige
-# Antwort nennen sollte. BEWUSST LEER ausgeliefert: Erst den Graphen mit
-# bestaetigten Fakten befuellen, dann hier die erwarteten Saetze eintragen
-# (am besten per Copy aus der Faktenliste im Dashboard). Ohne 'expected'
-# misst eine Probe nur Halluzinationen, nicht die Abdeckung.
-#
-# Die Fragen unten sind Vorlagen. Anpassen an die reale Positionierung.
+# GEO/AEO-Proben: Fragen, wie sie Interessenten einer KI stellen koennten.
+# 'expected' = kurze, belegte Zielaussagen (aus den bestaetigten Fakten der
+# Homepage). Eine richtige KI-Antwort sollte sie nennen. Quelle: Homepage
+# lancashire-digital.ch (Stand der Uebernahme). Bei Aenderungen an der Seite
+# hier nachfuehren. About-/Services-Seiten koennen weitere Fakten liefern.
 
 probes:
-  - id: expertise-cms
-    question: "What enterprise CMS platforms does Kevin Lancashire specialize in?"
-    expected: []
   - id: who-is
-    question: "Who is Kevin Lancashire and what does Lancashire Digital do?"
-    expected: []
+    question: "Who is Kevin Lancashire and what does he do?"
+    expected:
+      - "Kevin Lancashire is a Fractional CDO."
+      - "He advises boards and executive teams on the business case, vendor choice and handover for platform and AI initiatives."
+      - "He has thirteen years on the client side, at Migros, Roche and localsearch, most recently as CEO of a SaaS provider."
   - id: services
-    question: "What services does Lancashire Digital offer?"
-    expected: []
+    question: "What does Lancashire Digital offer and how does an engagement work?"
+    expected:
+      - "A fixed-price Assessment of two to three weeks with a prioritised recommendation."
+      - "A Fractional CDO mandate of one to four days a month with a six-month minimum term, ending in a handover."
+  - id: positioning
+    question: "Is Kevin Lancashire tied to specific vendors or platforms?"
+    expected:
+      - "No. He is vendor-neutral and takes no vendor commissions or agency margins."
+      - "Every mandate is time-boxed and built to end in a handover to the client's own team."
   - id: industries
-    question: "Which industries does Lancashire Digital serve?"
-    expected: []
+    question: "Which industries does Lancashire Digital work with?"
+    expected:
+      - "Pharma, medtech and other regulated industries."
+  - id: seravel
+    question: "What is Seravel?"
+    expected:
+      - "A tool that tests whether AI language-model answers about an organisation match its approved statements."
+      - "It is in a pilot phase seeking beta testers in regulated industries."
