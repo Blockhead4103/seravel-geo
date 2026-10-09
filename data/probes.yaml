@@ -1,32 +1,37 @@
 # GEO/AEO-Proben: Fragen, wie sie Interessenten einer KI stellen koennten.
-# 'expected' = kurze, belegte Zielaussagen (aus den bestaetigten Fakten der
-# Homepage). Eine richtige KI-Antwort sollte sie nennen. Quelle: Homepage
-# lancashire-digital.ch (Stand der Uebernahme). Bei Aenderungen an der Seite
-# hier nachfuehren. About-/Services-Seiten koennen weitere Fakten liefern.
+# 'expected' = kurze, belegte Zielaussagen aus den bestaetigten Fakten
+# (Homepage + About + KI-Antwort-Audit, lancashire-digital.ch). Eine richtige
+# KI-Antwort sollte sie nennen. Bei Aenderungen an der Website hier nachfuehren.
 
 probes:
   - id: who-is
     question: "Who is Kevin Lancashire and what does he do?"
     expected:
-      - "Kevin Lancashire is a Fractional CDO."
-      - "He advises boards and executive teams on the business case, vendor choice and handover for platform and AI initiatives."
-      - "He has thirteen years on the client side, at Migros, Roche and localsearch, most recently as CEO of a SaaS provider."
+      - "He is a Fractional (interim) CDO based in Binningen, Switzerland."
+      - "Twenty years of digital platforms, five brought live, from migros.ch to roche.com; thirteen years on the client side."
+      - "He drives platform decisions, selects vendors commission-free and executes through to go-live, then hands over."
   - id: services
-    question: "What does Lancashire Digital offer and how does an engagement work?"
+    question: "What does Lancashire Digital offer?"
     expected:
-      - "A fixed-price Assessment of two to three weeks with a prioritised recommendation."
-      - "A Fractional CDO mandate of one to four days a month with a six-month minimum term, ending in a handover."
+      - "A fixed-price Assessment of two to three weeks."
+      - "A Fractional CDO mandate (one to four days a month, six-month minimum), ending in a handover."
+      - "The KI-Antwort-Audit (AI Answer Audit), powered by Seravel."
   - id: positioning
-    question: "Is Kevin Lancashire tied to specific vendors or platforms?"
+    question: "Is Kevin Lancashire tied to specific vendors, and does he do implementation?"
     expected:
-      - "No. He is vendor-neutral and takes no vendor commissions or agency margins."
-      - "Every mandate is time-boxed and built to end in a handover to the client's own team."
+      - "No. He is vendor-neutral and takes no commissions or agency margins."
+      - "He does not implement; execution stays with the client's own teams or partners."
+      - "Every mandate is time-boxed and ends in a handover."
   - id: industries
-    question: "Which industries does Lancashire Digital work with?"
+    question: "Which industries does Lancashire Digital have a track record in?"
     expected:
-      - "Pharma, medtech and other regulated industries."
-  - id: seravel
-    question: "What is Seravel?"
+      - "Pharma & Life Sciences (Roche Group)."
+      - "Retail & E-Commerce (Migros)."
+      - "Telecom, Media & Directories (localsearch / Swisscom Directories)."
+      - "SaaS & Regulatory Tech (Transpareo AG, EU Ecodesign digital product passports)."
+  - id: ai-answer-audit
+    question: "What is the AI Answer Audit and what does it cost?"
     expected:
-      - "A tool that tests whether AI language-model answers about an organisation match its approved statements."
-      - "It is in a pilot phase seeking beta testers in regulated industries."
+      - "It measures whether AI systems describe a company correctly against its own approved sources, over repeated runs."
+      - "It is powered by Seravel and runs over about two weeks."
+      - "Prices: free Snapshot, Audit CHF 7'500, Audit Regulated CHF 15'000, Monitoring CHF 950 per month."

@@ -48,6 +48,17 @@
   },
   "@graph": [
     {
+      "@id": "ai-answer-audit",
+      "@type": "Service",
+      "name": "KI-Antwort-Audit (AI Answer Audit)",
+      "description": "Powered by Seravel. Measures whether AI systems (ChatGPT, Claude, Perplexity, Google Gemini) describe a company and its products correctly, against the client's own approved sources. Two weeks, repeated runs, rates not impressions, each run archived as a baseline. Fixed prices: free Snapshot; Audit CHF 7'500; Audit Regulated CHF 15'000; Monitoring CHF 950 per month. Target groups: pharma, medtech, finance and other regulated industries."
+    },
+    {
+      "@id": "ai-maturity-check",
+      "@type": "Service",
+      "name": "AI Maturity Check"
+    },
+    {
       "@id": "assessment",
       "@type": "Service",
       "name": "Assessment",
@@ -57,14 +68,17 @@
       "@id": "fractional-mandate",
       "@type": "Service",
       "name": "Fractional CDO mandate",
-      "description": "One to four days a month, six-month minimum term. Target indicators fixed against a baseline before the work starts; ends with the handover to the client's team."
+      "description": "One to four days a month, six-month minimum term (full-time on request). First the decision (business case with baseline, commission-free vendor choice, an owner from the client's team); then execution of vendors, milestones and sign-offs through to go-live; ends with the handover."
     },
     {
       "@id": "kevin-lancashire",
       "@type": "Person",
       "name": "Kevin Lancashire",
-      "jobTitle": "Fractional CDO",
-      "description": "Thirteen years on the client side of digital platforms, at Migros, Roche and localsearch, most recently as CEO of a SaaS provider. Advises boards and executive teams on the business case, vendor choice and handover for platform and AI initiatives; vendor-neutral and time-boxed.",
+      "jobTitle": "Fractional CDO (interim)",
+      "description": "Twenty years of digital platforms, five of them brought live, from migros.ch to roche.com. Thirteen years on the client side with budget, team and vendor accountability. Works on an interim basis: driving decisions, selecting vendors commission-free, executing through to go-live, then the handover. Based in Binningen, Switzerland.",
+      "sameAs": [
+        "https://www.linkedin.com/in/kevinlancashire"
+      ],
       "worksFor": {
         "@id": "lancashire-digital"
       }
@@ -74,13 +88,22 @@
       "@type": "Organization",
       "name": "Lancashire Digital",
       "url": "https://lancashire-digital.ch",
-      "description": "Independent, vendor-neutral advisory for platform and AI decisions. Fixed-term fractional CDO mandates and assessments for boards and executive teams, built to end in a handover to the client's own team.",
+      "description": "Senior digital leadership and board advisory for established companies: platform decisions, vendor governance and AI governance. Independent, fixed-term, ending in a handover. Binningen, Switzerland.",
+      "sameAs": [
+        "https://www.linkedin.com/company/lancashire-digital/"
+      ],
       "offers": [
         {
           "@id": "assessment"
         },
         {
           "@id": "fractional-mandate"
+        },
+        {
+          "@id": "ai-answer-audit"
+        },
+        {
+          "@id": "ai-maturity-check"
         }
       ],
       "deliveredProject": {
@@ -88,37 +111,49 @@
       },
       "servesIndustry": [
         {
-          "@id": "pharma"
+          "@id": "pharma-life-sciences"
         },
         {
-          "@id": "medtech"
+          "@id": "retail-ecommerce"
         },
         {
-          "@id": "regulated-industries"
+          "@id": "telecom-media-directories"
+        },
+        {
+          "@id": "saas-regulatory-tech"
         }
       ]
     },
     {
-      "@id": "medtech",
+      "@id": "pharma-life-sciences",
       "@type": "Industry",
-      "name": "Medtech"
+      "name": "Pharma & Life Sciences",
+      "description": "Group-wide digital governance, audit readiness and compliance directives for multinational enterprises (Roche Group)."
     },
     {
-      "@id": "pharma",
+      "@id": "retail-ecommerce",
       "@type": "Industry",
-      "name": "Pharma"
+      "name": "Retail & E-Commerce",
+      "description": "Large-scale platform relaunches and multi-team governance in high-competition environments (Migros)."
     },
     {
-      "@id": "regulated-industries",
+      "@id": "saas-regulatory-tech",
       "@type": "Industry",
-      "name": "Regulated industries"
+      "name": "SaaS & Regulatory Tech",
+      "description": "Executive leadership of SaaS providers and digital product passports under the EU Ecodesign regulation (Transpareo AG)."
     },
     {
       "@id": "seravel",
       "@type": "Project",
       "name": "Seravel",
-      "url": "https://www.lancashire-digital.ch/ai-answer-audit",
-      "description": "Tests whether AI language-model answers about an organisation match its approved statements (approval status, indications and scope, company facts). In pilot, seeking beta testers in regulated industries."
+      "url": "https://www.lancashire-digital.ch/seravel",
+      "description": "Lancashire Digital's own measurement instrument behind the AI Answer Audit. Sends reproducible questions to AI systems, compares answers to approved references, reports visibility and accuracy rates and traces errors to their likely source. In beta, expanded system by system."
+    },
+    {
+      "@id": "telecom-media-directories",
+      "@type": "Industry",
+      "name": "Telecom, Media & Directories",
+      "description": "National directory and community platforms from inception to market (localsearch / Swisscom Directories)."
     }
   ]
 }

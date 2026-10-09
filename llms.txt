@@ -1,36 +1,49 @@
 # Lancashire Digital
 
-> Thirteen years on the client side of digital platforms, at Migros, Roche and localsearch, most recently as CEO of a SaaS provider. Advises boards and executive teams on the business case, vendor choice and handover for platform and AI initiatives; vendor-neutral and time-boxed.
+> Twenty years of digital platforms, five of them brought live, from migros.ch to roche.com. Thirteen years on the client side with budget, team and vendor accountability. Works on an interim basis: driving decisions, selecting vendors commission-free, executing through to go-live, then the handover. Based in Binningen, Switzerland.
 
 Quelle: https://lancashire-digital.ch
 
 ## About
-- Kevin Lancashire — Fractional CDO; Thirteen years on the client side of digital platforms, at Migros, Roche and localsearch, most recently as CEO of a SaaS provider. Advises boards and executive teams on the business case, vendor choice and handover for platform and AI initiatives; vendor-neutral and time-boxed.
-- Lancashire Digital — Independent, vendor-neutral advisory for platform and AI decisions. Fixed-term fractional CDO mandates and assessments for boards and executive teams, built to end in a handover to the client's own team.
+- Kevin Lancashire — Fractional CDO (interim); Twenty years of digital platforms, five of them brought live, from migros.ch to roche.com. Thirteen years on the client side with budget, team and vendor accountability. Works on an interim basis: driving decisions, selecting vendors commission-free, executing through to go-live, then the handover. Based in Binningen, Switzerland.
+  - https://www.linkedin.com/in/kevinlancashire
+- Lancashire Digital — Senior digital leadership and board advisory for established companies: platform decisions, vendor governance and AI governance. Independent, fixed-term, ending in a handover. Binningen, Switzerland.
+  - https://www.linkedin.com/company/lancashire-digital/
   - https://lancashire-digital.ch
 
 ## Services
+- AI Maturity Check
 - Assessment
 - Fractional CDO mandate
+- KI-Antwort-Audit (AI Answer Audit)
 
 ## Industries
-- Medtech
-- Pharma
-- Regulated industries
+- Pharma & Life Sciences
+- Retail & E-Commerce
+- SaaS & Regulatory Tech
+- Telecom, Media & Directories
 
 ## Projects
-- Seravel — Tests whether AI language-model answers about an organisation match its approved statements (approval status, indications and scope, company facts). In pilot, seeking beta testers in regulated industries.
+- Seravel — Lancashire Digital's own measurement instrument behind the AI Answer Audit. Sends reproducible questions to AI systems, compares answers to approved references, reports visibility and accuracy rates and traces errors to their likely source. In beta, expanded system by system.
 
 ## Verified facts
-- Kevin Lancashire: Thirteen years on the client side of digital platforms, at Migros, Roche and localsearch, most recently as CEO of a SaaS provider. Advises boards and executive teams on the business case, vendor choice and handover for platform and AI initiatives; vendor-neutral and time-boxed.
-- Lancashire Digital: Independent, vendor-neutral advisory for platform and AI decisions. Fixed-term fractional CDO mandates and assessments for boards and executive teams, built to end in a handover to the client's own team.
+- Kevin Lancashire: Twenty years of digital platforms, five of them brought live, from migros.ch to roche.com. Thirteen years on the client side with budget, team and vendor accountability. Works on an interim basis: driving decisions, selecting vendors commission-free, executing through to go-live, then the handover. Based in Binningen, Switzerland.
+- Lancashire Digital: Senior digital leadership and board advisory for established companies: platform decisions, vendor governance and AI governance. Independent, fixed-term, ending in a handover. Binningen, Switzerland.
 - Assessment: Fixed price after the initial call, two to three weeks. A prioritised basis for decision, including a clear recommendation on what to stop or correct.
-- Fractional CDO mandate: One to four days a month, six-month minimum term. Target indicators fixed against a baseline before the work starts; ends with the handover to the client's team.
-- Seravel: Tests whether AI language-model answers about an organisation match its approved statements (approval status, indications and scope, company facts). In pilot, seeking beta testers in regulated industries.
+- Fractional CDO mandate: One to four days a month, six-month minimum term (full-time on request). First the decision (business case with baseline, commission-free vendor choice, an owner from the client's team); then execution of vendors, milestones and sign-offs through to go-live; ends with the handover.
+- KI-Antwort-Audit (AI Answer Audit): Powered by Seravel. Measures whether AI systems (ChatGPT, Claude, Perplexity, Google Gemini) describe a company and its products correctly, against the client's own approved sources. Two weeks, repeated runs, rates not impressions, each run archived as a baseline. Fixed prices: free Snapshot; Audit CHF 7'500; Audit Regulated CHF 15'000; Monitoring CHF 950 per month. Target groups: pharma, medtech, finance and other regulated industries.
+- Seravel: Lancashire Digital's own measurement instrument behind the AI Answer Audit. Sends reproducible questions to AI systems, compares answers to approved references, reports visibility and accuracy rates and traces errors to their likely source. In beta, expanded system by system.
+- Pharma & Life Sciences: Group-wide digital governance, audit readiness and compliance directives for multinational enterprises (Roche Group).
+- Retail & E-Commerce: Large-scale platform relaunches and multi-team governance in high-competition environments (Migros).
+- Telecom, Media & Directories: National directory and community platforms from inception to market (localsearch / Swisscom Directories).
+- SaaS & Regulatory Tech: Executive leadership of SaaS providers and digital product passports under the EU Ecodesign regulation (Transpareo AG).
 - Kevin Lancashire works for Lancashire Digital.
 - Lancashire Digital offers the service Assessment.
 - Lancashire Digital offers the service Fractional CDO mandate.
+- Lancashire Digital offers the service KI-Antwort-Audit (AI Answer Audit).
+- Lancashire Digital offers the service AI Maturity Check.
 - Lancashire Digital delivered the project Seravel.
-- Lancashire Digital serves the Pharma industry.
-- Lancashire Digital serves the Medtech industry.
-- Lancashire Digital serves the Regulated industries industry.
+- Lancashire Digital serves the Pharma & Life Sciences industry.
+- Lancashire Digital serves the Retail & E-Commerce industry.
+- Lancashire Digital serves the Telecom, Media & Directories industry.
+- Lancashire Digital serves the SaaS & Regulatory Tech industry.
